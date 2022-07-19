@@ -85,7 +85,8 @@ public class FileValidation {
 	private static String readProgram() {
 		return """
         		public class Example {
-                public static void main(String args[]) {
+                public static void main(String args[]) 
+		{
                    System.out.println("Hello World"); 
                 }
             }
